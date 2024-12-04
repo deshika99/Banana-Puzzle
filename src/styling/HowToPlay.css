@@ -11,14 +11,15 @@
 .how-to-play-content {
   max-width: 800px;
   padding: 20px;
-  background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  background-color: rgba(56, 49, 49, 0.9);
   border-radius: 10px;
+  font-family:'parkinsans'
 }
 
 .how-to-play-header h1 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: greenyellow; /* Your theme color */
+  color: rgb(116, 17, 158);
   animation: fadeInDown 1s ease; /* Add fade in animation */
 }
 
@@ -32,7 +33,7 @@
 .how-to-play-tips h2,
 .watch-gameplay h2 {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: greenyellow; /* Your theme color */
   animation: fadeInLeft 1s ease; /* Add fade in animation */
 }
@@ -45,7 +46,7 @@
 
 .how-to-play-instructions li,
 .how-to-play-tips li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: #fff; /* White text */
   animation: fadeInLeft 1s ease; /* Add fade in animation */
 }
@@ -68,7 +69,7 @@
 
 .how-to-play-instructions h2 {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: greenyellow; /* Your theme color */
   overflow: hidden; /* Hide overflow to create typewriter effect */
   border-right: 0.15em solid white; /* Typing cursor */
@@ -97,4 +98,6 @@
 
 .how-to-play-instructions p {
   color: #fff; /* White text */
+  line-height: 2; /* Increases the line spacing within paragraphs */
+   
 }

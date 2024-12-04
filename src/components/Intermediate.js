@@ -6,7 +6,7 @@ const Intermediate = () => {
   return (
     <GameLevel
       difficulty="Intermediate"
-      initialTimerDuration={40}
+      initialTimerDuration={30}
       initialChances={3}
     />
   );

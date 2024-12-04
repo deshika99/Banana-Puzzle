@@ -6,7 +6,7 @@ const Expert = () => {
   return (
     <GameLevel
       difficulty="Expert"
-      initialTimerDuration={30}
+      initialTimerDuration={20}
       initialChances={2}
     />
   );

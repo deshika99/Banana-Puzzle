@@ -23,15 +23,16 @@
 }
 
 h2 {
-  color: white;
+  color: rgb(100, 42, 90);
   text-align: center;
   margin-bottom: 20px;
+  font-family: 'pakinsans';
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
-  color: white;
+  color: rgb(100, 42, 90);
 }
 
 th,
@@ -47,9 +48,9 @@ th {
 }
 
 tr.highlighted {
-  background-color: rgba(214, 239, 49, 0.8); /* Banana yellow with opacity */
+  background-color: rgba(213, 214, 200, 0.8); /* Banana yellow with opacity */
 }
 
 tr.highlighted td {
-  color: greenyellow;
+  color: rgb(168, 173, 160);
 }

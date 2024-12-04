@@ -67,13 +67,15 @@
 .welcome-note {
   font-size: 26px;
   margin-top: 15px;
-  color: #32CD32; /* Lime Green */
+  color: rgb(116, 17, 158);
   font-weight: bold;
+  font-family: 'parkinsans';
   animation: move 2.5s linear infinite; /* Smooth animation */
+  
 }
 
 .username {
-  color: #FFD700; /* Gold color for emphasis */
+  color: rgb(116, 17, 158);
   font-style: italic;
 }
 
@@ -89,10 +91,10 @@
   width: 240px;
   padding: 18px;
   margin: 12px;
-  background-color: #9ACD32; /* GreenYellow */
-  color: #333; /* Dark text color for contrast */
+  background-color:rgb(100, 42, 90);
+  color: #ffffff; 
   font-weight: 600;
-  border: 2px solid #9ACD32;
+  border: rgb(100, 42, 90);
   border-radius: 12px;
   text-decoration: none;
   font-size: 20px;
@@ -103,7 +105,7 @@
 
 /* Highlight the Start Play button */
 .nav-link.highlight {
-  background-color: #32CD32; /* Lime Green to highlight Start Play */
+  background-color: rgb(116, 17, 158);
   color: white;
   font-size: 22px;
   font-weight: 700;
@@ -113,7 +115,7 @@
 
 .nav-link:hover,
 .nav-button:hover {
-  background-color: #32CD32; /* Lime Green */
+  background-color:rgb(116, 17, 158);
   color: white;
   transform: translateY(-5px); /* Hover effect */
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4); /* Bigger shadow on hover */

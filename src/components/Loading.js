@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";  // Add react-router-dom for navigation
 import logo from "../Images/logo.png";  // Import the image from the src folder
-import "../styling/SplashScreen.css";
+import "../styling/Loading.css";
 
-function SplashScreen() {
+function Loading() {
   const navigate = useNavigate();  // Initialize navigate from react-router-dom
 
   useEffect(() => {
@@ -17,15 +17,15 @@ function SplashScreen() {
   }, [navigate]);  // Added navigate to the dependency array for safety
 
   return (
-    <div className="splash-screen">
+    <div className="loading">
       <div className="logo-container">
         {/* Use the imported logo */}
         <img src={logo} alt="Logo" className="logo" />
       </div>
-      <h1 className="game-name">Bananapuzzle</h1>
+      <h1 className="game-name">BananaPuzzle</h1>
       <div className="loading-text">Loading...</div>
     </div>
   );
 }
 
-export default SplashScreen;
+export default Loading;

@@ -46,7 +46,7 @@ function Home() {
       <div className="content-wrapper">
         <div className="game-info">
           <img src={logo} alt="Bananapuzzle Logo" className="game-logo" />
-          <h1 className="game-name">Welcome to Bananapuzzle</h1>
+          
           <p className="welcome-note">
             Hello, <span className="username">{usernameOrEmail}</span>!
           </p>
